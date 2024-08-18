@@ -107,10 +107,10 @@ export default function Home() {
 								backgroundSize: "cover",
 							}}
 						>
-							<h1 className="font-bold text-3xl md:text-5xl ginto">Discord</h1>
-							<h1 className="mb-4 text-2xl md:text-4xl ginto">FAKE AVATAR DECORATIONS</h1>
+							<h1 className="font-bold text-3xl md:text-5xl ginto">ZOLTRACK</h1>
+							<h1 className="mb-4 text-2xl md:text-4xl ginto">DISCORD FAKE DECORATION</h1>
 							<h2 className="text-sm sm:text-base">
-								Create profile pictures with avatar decorations so you can use them in Discord for free without spending money
+								Ayo membuat dekor mu dengan sesukamu tanpa membuang uang banyak!
 							</h2>
 						</div>
 						<div className="flex md:flex-row flex-col items-center md:items-start gap-8 px-8 py-12 w-full max-w-[900px]">
@@ -376,10 +376,10 @@ export default function Home() {
 										<hr />
 										<p className="font-semibold text-xs [letter-spacing:.02em] mb-1 scale-y-95">ABOUT ME</p>
 										<p className="text-sm">
-											Hello, this is an example profile so that you can see what the profile picture would actually look like on Discord.
+											Halo, ini adalah contoh profil sehingga Anda dapat melihat seperti apa sebenarnya tampilan gambar profil di Discord.
 										</p>
 										<p className="font-semibold text-xs [letter-spacing:.02em] mt-3 mb-1 scale-y-95">DISCORD MEMBER SINCE</p>
-										<p className="text-sm">May 13, 2015</p>
+										<p className="text-sm">May 13, 2016</p>
 										<button
 											className="flex justify-center items-center gap-2 bg-secondary hover:bg-secondaryAlt mt-3 py-1.5 rounded-[3px] w-full transition"
 											onClick={() => {
@@ -514,7 +514,7 @@ export default function Home() {
 								{/* pls support */}
 								<div className="flex flex-col justify-start items-stretch w-full text-center">
 									<p>
-										Help support the project <Twemoji emoji="🙏" />
+										Silahkan support project aku ya gengs <Twemoji emoji="🙏" />
 									</p>
 									<button
 										className="flex justify-center items-center gap-1 bg-secondary hover:bg-secondaryAlt mt-3 py-1.5 rounded-[3px] transition"
@@ -534,7 +534,7 @@ export default function Home() {
 												fill="#ffffff"
 											/>
 										</svg>
-										Share the website w/ your friends
+										Silahkan kasih tau teman kalian
 									</button>
 									<Tooltip
 										id="share-tooltip"
@@ -553,7 +553,7 @@ export default function Home() {
 									<button
 										className="flex justify-center items-center gap-1 bg-secondary hover:bg-secondaryAlt mt-3 py-1.5 rounded-[3px] transition"
 										onClick={() => {
-											window.open("https://github.com/ItsPi3141/discord-fake-avatar-decorations");
+											window.open("https://discord.gg/VUxQE5jT");
 										}}
 									>
 										<svg height="1em" fill="none" viewBox="2 2 22 21" xmlns="http://www.w3.org/2000/svg">
@@ -562,36 +562,36 @@ export default function Home() {
 												fill="#ffffff"
 											/>
 										</svg>
-										Star the project on GitHub
+										Join server discord kami
 									</button>
 								</div>
 							</div>
 						</div>
 						<p className="mb-4 text-center text-gray-400 text-sm">
-							Website made by{" "}
-							<Link href={"https://github.com/ItsPi3141"} className="hover:text-gray-200 underline" target="_blank">
-								ItsPi3141
+							Website made by {" "}
+							<Link href={"https://discord.com/users/922071054199980072"} className="hover:text-gray-200 underline" target="_blank">
+								CanfarizZoltrack
 							</Link>
 							<br />
-							This project is open-source! View{" "}
+							Silahkan join server discord kami!{" "}
 							<Link
-								href={"https://github.com/ItsPi3141/discord-fake-avatar-decorations"}
+								href={"https://discord.gg/8GVBypgYxn"}
 								className="hover:text-gray-200 underline"
 								target="_blank"
 							>
-								source code
+								Semoga kalian tertarik
 							</Link>{" "}
-							on GitHub.
+							dengan produk kami.
 							<br />
-							This site is NOT affiliated with Discord Inc. in any way. All images and assets belong to Discord Inc.
+							Situs ini TIDAK berafiliasi dengan Discord Inc. dengan cara apa pun. Semua gambar dan aset adalah milik Discord Inc.
 							<br />
-							Discord Character avatars were created by Bred and Jace. View the collection on{" "}
+							Discord avatar decoration di buat oleh CanfaricZoltrack{" "}
 							<Link
-								href={"https://www.figma.com/community/file/1316822758717784787/ultimate-discord-library"}
+								href={"https://discord.gg/8GVBypgYxn"}
 								className="hover:text-gray-200 underline"
 								target="_blank"
 							>
-								Figma
+								Zoltrack Store
 							</Link>
 						</p>
 					</main>
@@ -635,7 +635,7 @@ export default function Home() {
 													onClick={() => {
 														const a = document.createElement("a");
 														a.href = finishedAv;
-														a.download = `discord_fake_avatar_decorations_${Date.now()}.gif`;
+														a.download = `zoltrack_fake_decoration_${Date.now()}.gif`;
 														a.click();
 													}}
 												>
