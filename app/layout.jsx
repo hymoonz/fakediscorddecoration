@@ -10,19 +10,19 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			<head>
 				{/* Meta tags */}
-				<title>Discord Fake Avatar Decorations</title>
-				<meta name="description" content="Get Discord avatar decorations for free without spending money!" />
+				<title>Zoltrack Discord Fake Decoration</title>
+				<meta name="description" content="Ayo membuat dekor mu dengan sesukamu tanpa membuang uang banyak!" />
 
 				{/* Open Graph embeds */}
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="Discord Fake Avatar Decorations" />
-				<meta property="og:description" content="Get Discord avatar decorations for free without spending money!" />
+				<meta property="og:title" content="Zoltrack Discord Fake Decoration" />
+				<meta property="og:description" content="Ayo membuat dekor mu dengan sesukamu tanpa membuang uang banyak!" />
 				<meta property="og:image" content="https://discord-decorations.vercel.app/android-chrome-192x192.png" />
 
 				{/* Twitter embeds */}
 				<meta name="twitter:card" content="summary" />
-				<meta name="twitter:title" content="Discord Fake Avatar Decorations" />
-				<meta name="twitter:description" content="Get Discord avatar decorations for free without spending money!" />
+				<meta name="twitter:title" content="Zoltrack Discord Fake Decoration" />
+				<meta name="twitter:description" content="Ayo membuat dekor mu dengan sesukamu tanpa membuang uang banyak!" />
 				<meta property="twitter:image" content="https://discord-decorations.vercel.app/android-chrome-192x192.png" />
 
 				{/* Favicon */}
